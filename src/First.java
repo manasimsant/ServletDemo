@@ -13,6 +13,7 @@ public class First implements Servlet {
 	public void init(ServletConfig config) {
 		this.config = config;
 		System.out.println("servlet is initialized");
+		System.out.println("line added");
 	}
 
 	public void service(ServletRequest req, ServletResponse res) throws IOException, ServletException {
